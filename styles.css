@@ -1,0 +1,103 @@
+body {
+  background: url("/images/pattern-background-desktop.svg");
+  background-color: hsl(225, 100%, 94%);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.box {
+  height: 550px;
+  width: 400px;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: white;
+}
+
+.top-image img {
+  max-width: 100%;
+  height: auto;
+}
+.title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.title-container h3 {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+}
+
+.title-container > p {
+  padding: 0 45px 0 65px;
+  color: hsl(224, 23%, 55%);
+  text-align: center;
+  margin-top: 0px;
+  font-size: small;
+}
+.annual-subscription {
+  width: 75%;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+}
+.inner-container {
+  padding: 5px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.music-icon > img {
+  max-width: 80%;
+}
+.music-price-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.plan-price p:nth-child(1) {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+  font-size: small;
+  margin-bottom: 8px;
+  margin-top: 10px;
+}
+.plan-price p:nth-child(2) {
+  color: hsl(224, 23%, 55%);
+  font-size: small;
+  margin-top: 0;
+}
+.change {
+  font-size: small;
+  color: hsl(245, 75%, 52%);
+  font-weight: 700;
+}
+.payment-button {
+  width: 75%;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  font-weight: 700;
+  font-size: small;
+  padding: 8px;
+  margin-top: 30px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 5px 10px 20px hsl(245deg 75% 90%);
+}
+.cancel {
+  margin-top: 15px;
+}
+.cancel > p {
+  color: hsl(224, 23%, 55%);
+  font-weight: 900;
+  font-size: small;
+}
