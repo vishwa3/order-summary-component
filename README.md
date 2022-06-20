@@ -1,1 +1,1 @@
-This challenge helped me to hone my CSS basics
+Live project - https://vishwa3.github.io/order-summary-component/
